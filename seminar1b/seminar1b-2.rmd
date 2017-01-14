@@ -1,0 +1,19 @@
+---
+title: "Seminar1b"
+author: "Fangwu Wang"
+date: '2017-01-11'
+output: html_document
+---
+
+## Basic inspections of my data
+
+First, I read my data:
+
+```{r}
+prDat <- read.table("GSE4051_MINI.txt", header = TRUE, row.names = 1)
+```
+
+Then, I want to know how many rows are in my data:
+```{r}
+nrow(prDat)
+```
