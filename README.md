@@ -5,8 +5,8 @@ Name: Fangwu Wang
 
 Program: Medical Genetics
 
-Research Interest: Human hematopoietic cell lineage differentiation; Stem cell biology.
+Research Interest: human hematopoietic cell lineage differentiation; stem cell biology.
 
 Contact: fwwang@bccrc.ca
 
-I expect to study systematical and practical statistic skills from this course for my biological research.
+I expect to study systematic and practical statistic skills from this course for my biological research.
