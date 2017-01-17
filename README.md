@@ -11,5 +11,5 @@ Contact: fwwang@bccrc.ca
 
 I expect to study systematic and practical statistic skills from this course for my biological research.
 
-Link to the practice assignment R markdown: 151e24bf921eb838b828cc0513e9c3d1d6ed6f54
+Link to the practice assignment R markdown: 151e24b
 
