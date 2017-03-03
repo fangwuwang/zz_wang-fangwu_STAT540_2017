@@ -289,7 +289,7 @@ numfdr
 ```
 Therefore, there is likely to be no false discoveries in this list.
 
-#### Q4. Differential expression with respect to time
+## Q4. Differential expression with respect to time
 ####4.1 Linear model
 Fit a linear model for assessing the effect of time on gene expression
 
@@ -405,7 +405,7 @@ intersect(hit1_name,hit2_name)
 ```
 There are 11 hits overlapped between the two models.   
 
-Plot the distributions of all the p-values for treatment:
+##Plot the distributions of all the p-values for treatment:
 
 ```r
 pval1<-tableEbFIt[,3]
@@ -458,7 +458,7 @@ length(interact[interact[,4]<0.05,4])
 ####The genes with interaction:
 
 ```r
-# take top gene in the interaction list
+# take the top gene in the interaction list
 gene1<-data[which(rownames(data)==rownames(interact[1,])),]
 expression1<-as.numeric(gene1[1,])
 genedf1<-data.frame(metadata,expression1)

@@ -244,7 +244,7 @@ length(interact[interact[,4]<0.05,4])
 ####5.3 Plot a few probes where the interaction does and does not matter  
 ####The genes with interaction:
 ```{r}
-# take top gene in the interaction list
+# take the top gene in the interaction list
 gene1<-data[which(rownames(data)==rownames(interact[1,])),]
 expression1<-as.numeric(gene1[1,])
 genedf1<-data.frame(metadata,expression1)
