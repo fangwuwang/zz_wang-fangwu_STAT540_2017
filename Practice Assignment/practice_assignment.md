@@ -1,4 +1,4 @@
---# Practice Assignment
+# Practice Assignment
 Fangwu Wang  
 2017-01-14  
 
