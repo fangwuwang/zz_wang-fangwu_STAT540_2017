@@ -16,3 +16,6 @@ My practice assignment: [here](https://github.com/STAT540-UBC/zz_wang-fangwu_STA
 Paper review: [here](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Paper%20review.md)
 
 Assignment (part I): [here](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Analysis%20assignment/Assignment_I.md)
+
+Assignment (part II):
+[here](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Analysis%20assignment/Assignment_II.md)
