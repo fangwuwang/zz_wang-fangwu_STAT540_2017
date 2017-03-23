@@ -7,7 +7,7 @@ output:
   toc: yes
   keep_md: true
 ---
-```{r,include=FALSE}
+```{r,message=FALSE}
 library(ggplot2)
 library(pheatmap)
 library(limma)

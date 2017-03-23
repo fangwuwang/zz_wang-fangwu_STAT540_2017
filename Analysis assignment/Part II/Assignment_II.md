@@ -2,6 +2,14 @@
 Fangwu Wang  
 2017-03-19  
 
+```r
+library(ggplot2)
+library(pheatmap)
+library(limma)
+library(edgeR)
+library(AnnotationDbi)
+library("yeast2.db") 
+```
 
 ## Question 6: Microarray analysis
 #### 6.1 Data loading and QC
@@ -388,7 +396,7 @@ gene
 ```
 
 ```
-## [1] "YKL162C"
+## [1] "YLR438W"
 ```
 
 ```r
@@ -411,7 +419,7 @@ gene
 ```
 
 ```
-## [1] "YGL256W"
+## [1] "YMR018W"
 ```
 
 ```r
@@ -435,7 +443,7 @@ gene
 ```
 
 ```
-## [1] "YDR150W"
+## [1] "YCR087C-A"
 ```
 
 ```r
@@ -448,6 +456,10 @@ microarrayplot(gene)
 sequencingplot(gene)
 ```
 
+```
+## Warning: Removed 6 rows containing missing values (geom_point).
+```
+
 ![](Assignment_II_files/figure-html/unnamed-chunk-24-2.png)<!-- -->
 
 #### Identified as DE only in the sequencing analysis
@@ -458,7 +470,7 @@ gene
 ```
 
 ```
-## [1] "YDL167C"
+## [1] "YAR003W"
 ```
 
 ```r
@@ -484,7 +496,7 @@ gene
 ```
 
 ```
-## [1] "YMR182C"
+## [1] "YPR045C"
 ```
 
 ```r
