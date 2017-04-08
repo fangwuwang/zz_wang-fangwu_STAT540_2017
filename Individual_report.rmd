@@ -1,0 +1,40 @@
+---
+title: "Individual report"
+author: "Fangwu Wang"
+date: '2017-04-07'
+output: html_document
+toc: true
+keep_md: true
+---
+
+#### Contributions of group members:  
+**Fangwu Wang**: a. brought in research background and biological questions/ b. DNA methylation data preparation, enhancer region annotation and pairwise comparison run for HSC-MPP, MPP-MLP, MPP-CMP/ c. RNA-seq exploration for normal progenitors/ d. transcription factor clustering.  
+**Somdeb Paul**: a. run the DNA methylation analysis with all samples altogether/ b. run the pairwise comparison for CMP-MLP, GMP-CLP/ c. DNA methylation result interpretation.  
+**Rawnak Hoque**: a. run limma analysis for leukemia samples/ b. quality check and gene id conversion for RNA-seq data of normal progenitors/ c. explored HOMER TF motif tools and run analysis using terminal commands/ d. finished TF enrichment analysis for enhancer regions of CMP/MLP comparison.  
+**Annie Cavalla**: a. run TF enrichment analysis for promoter regions of CMP/MLP comparison/ b. TF enrichment result sanity check and interpretation.  
+Main contributors to the poster were Fangwu, Somdeb and Annie.  
+
+#### Do you think the task assignments were fairly assigned?  
+
+The task assignments of our group is fair from my perspective. We decided our tasks based on the expertise and interests of each member. Annie’s research focus is on Cancer genomics and she has a good understanding about DNA sequences, so she took the TF motif part. Somdeb is interested in transcription regulation so he took the epigenomic (DNA methylation) part. Rawnak is interested in high dimensional data analysis and chose to work on RNA-seq data. I am interested in identifying novel TFs that regulate cell fate in particular lineages, and whether their expression is correlated to their functions, so I looked for any patterns that indicated the expression and functions of TFs in expression profiles of normal progenitor/leukemia cells.  
+Everyone stuck to and completed their designated parts with a satisfactory quality. And we all worked together when there were bottlenecks to be solved several times and backed up for each other when the time was running short. We were all willing to do beyond our assigned parts and tried to learn and explore as more as we could.   
+
+#### Explain what are your contributions to the project?  
+
+As to my contributions to the project, I was involved in every session of the project and coordinated with members to make sure we were in progress and the deadline could be met. Based on the data we have, I did research on the optimal analysis approaches and the mechanics of the softwares, and worked out the input data formats and the workflow between steps. I also contributed to the interpretation of results from a biological point of view.  
+
+#### What worked well and what did not? What was the most challenging or rewarding moment during your group project?  
+
+The first problem we had was we could not do proper statistical analysis on RNA-seq data due to missed replicates. Then we decided to incline more on the DNA methylation data for TF finding and used leukemia data for validation. The RnBeads was a little tricky to work on, and we spent some time to figured out the format of the input files and dealt with other problems that appeared during the run.  The DNA methylation data had very low coverage and the CpG sites were generally sparse across the genome, so we could not get many hits of differential methylation regions with the FDR we set. The Homer software is one of the best for TF motif analysis, but it is in Perl so we could not run it with R. However, Rawnak managed to make use of a remote server and run the analysis form the terminal. We were thinking hard about using statistical methods to quantitate the correlation between DNA methylation and gene expression, between TFs from data-driven analysis and their true function, and ended up using exploratory methods to give a general idea. We wish we could do better to dig into these correlations with sophisticated approaches since these are interesting questions.  
+There were several exciting moments: the first was when we had the DNA methylation results all the way through the differential region analysis, we could see the clustering of cell types based on the promoter and enhancer methylation; the second was when the enhancer annotation worked and it provided even better separation on cell types than the promoter in some cases (e.g., [promoter](https://github.com/STAT540-UBC/team_Bloodies/blob/master/Results/1.DNA_methylation_RnBeads/Clustering/CLP-GMP-promoters.png) vs [enhancer K562](https://github.com/STAT540-UBC/team_Bloodies/blob/master/Results/1.DNA_methylation_RnBeads/Clustering/CLP-GMP-enhancerK562.png) for GMP-CLP); the third one was that even from low coverage DNA methylation data, the TF analysis turned out to be robust enough to identify many hematopoietic cell-specific TFs and the leukemia types could be clustered based on their expression.   
+
+#### How did you find having members of different backgrounds for a scientific project?  
+It is very beneficial to have group members from different backgrounds. With all different research experiences and expertise, we can bring up more ideas and handle the problems in more diverse and creative ways. During this project, we usually met twice a week sitting together and working on the same problem. It turned out to be very productive and every one learnt a lot from each other. We also reached out to experienced students and postdocs to bring in support from different labs.   
+
+#### What have you learned from this group project?  
+
+From this project, the most important gain is a deeper understanding about the methylome and transcriptome data and how to perform analysis that is statistically stringent while reflecting the true biology. I also got to know some commonly used tools, their pros and cons and conditions for them to work. During this process, I became familiar with high dimensional data formats (RSEM, RPKM, BED) and comfortable to do manipulations on them. Besides, I gained precious experiences on how to cooperate and coordinate with people in a group, and how to balance between getting things perfect and getting things to work within limited time.  
+
+#### Any other comments on how the group project could have been structured differently?  
+
+Comments on the project format: It is great to have a diverse composition of the group, however, it can not be always achieved through voluntary grouping. It might work more efficiently to have people assigned into groups to make sure there is a good mixture of diverse backgrounds. As to the topics of the group projects, using published data and try to re-do the analysis using a better method might also be a good practice, so that students can gain a good appreciation about how statistical methods evolve and some critical views about how different output is generated compared to the published results.
