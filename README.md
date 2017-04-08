@@ -9,13 +9,16 @@ Research Interest: human hematopoietic cell lineage differentiation; stem cell b
 
 Contact: fwwang@bccrc.ca
 
-I expect to study systematic and practical statistic skills from this course for my biological research.
+I expect to study systematic and practical statistic skills from this course for my biological research.  
 
-My practice assignment: [here](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/tree/master/Practice%20Assignment)  
+Links:  
 
-Paper review: [here](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Paper%20review/Paper%20review.md)
+[My practice assignment](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/tree/master/Practice%20Assignment)  
 
-Assignment (part I): [here](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Analysis%20assignment/Part%20I/Assignment_I.md)
+[Paper review](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Paper%20review/Paper%20review.md)
 
-Assignment (part II):
-[here](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Analysis%20assignment/Part%20II/Assignment_II.md)
+Assignment [(part I)](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Analysis%20assignment/Part%20I/Assignment_I.md)
+
+Assignment [(part II)](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Analysis%20assignment/Part%20II/Assignment_II.md)
+
+Group project: [individual report](https://github.com/STAT540-UBC/zz_wang-fangwu_STAT540_2017/blob/master/Individual_report.rmd)
